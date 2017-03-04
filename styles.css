@@ -1,0 +1,22 @@
+html {
+    overflow-y: scroll;
+}
+
+body {
+	margin: 10px;
+	padding: 0px;
+	border-style: none;
+	background: #333333;
+	color: #FFFFFF;	
+	font-family: verdana,arial,helvetica,sans-serif;
+	font-size: 11px;
+}
+
+input {
+    border-style:solid;
+    border-width:1px;
+    border-color:#A3B6BF;
+    font-family: arial,helvetica,verdana,sans-serif;
+    font-size: 11px;
+    color: #4B4B4B;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Number Guessing Game</title>
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div style="font-size:24px;color:#C0C0C0">Number Guessing Game :)</div>
+		<div style="font-size:10px;color:#C0C0C0">Won Games: <span id="lblWon">0</span> / Lost Games: <span id="lblLost">0</span></div>
+		
+		<div style="width:500px;margin-top:12px">
+			Please enter your guess between 1 and 100:
+			<form style="margin-top:5px;">
+				<input id="txtGuess" type="text" size="5" maxlength="3" />
+				<input id="btnSubmit" type="button" value="Ok" /> Guess #<span id="lblGuessCount">1</span>
+			</form>
+		</div>
+		
+		<div id="lblFeedback" style="font-size:16px;color:#C0C0C0;margin-top:12px;"></div>
+
+        <script type="text/Javascript" src="cookieManager.js"></script>
+        <script type="text/Javascript" src="prototypeMods.js"></script>
+        <script type="text/Javascript" src="Game.js"></script>
+    </body>
+</html>
